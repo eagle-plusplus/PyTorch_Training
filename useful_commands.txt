@@ -1,0 +1,19 @@
+check default python version:
+
+python --version
+
+check all installed python versions:
+
+py -0
+
+create virtual environment:
+
+py -<version> -m venv <path/to/venv-folder>
+
+activate virtual environment:
+
+venv\Scripts\activate.bat
+
+deactivate virtual environment:
+
+deactivate
